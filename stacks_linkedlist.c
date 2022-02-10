@@ -58,7 +58,7 @@ void display()
 void main()
 {
     int ch,x;
-    printf("1.insert \n2.pop \n3.display \nexit");
+    printf("1.insert \n2.pop \n3.display \n4.exit");
     while(1){
         printf("\nenter your choice: ");
         scanf("%d",&ch);
@@ -89,7 +89,7 @@ void main()
 1.insert 
 2.pop 
 3.peek 
-exit
+4.exit
 enter your choice: 1
 
 Enter a number: 2
