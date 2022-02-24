@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include<stdlib.h>
 
 #define MAX 20
 int a[MAX],front=-1,rear=-1;
@@ -52,8 +53,13 @@ int main()
                    scanf("%d",&x);
                    enque(x);
                    break;
-            case 2:printf("\nelement %d is deleted from front",x);
+            case 2:
                    x=deque();
+                   if(x>-1){
+                       printf("\nelement %d is deleted from front\n",x);
+                   }else{
+                       printf("\nQueue Underflow\n");
+                   }
                    break;
             case 3:printf("\nelements in queue are\n");
                    display();
