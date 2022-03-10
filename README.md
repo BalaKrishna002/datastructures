@@ -1,4 +1,4 @@
-# datastructures
+# datastructures using c
 2ndyear 1st sem
 
 1.linkedlists--->singly,doubly,circular
